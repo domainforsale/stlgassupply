@@ -101,10 +101,10 @@
         <textarea name="message" placeholder="Your Offer or Message" required></textarea>
         
         <!-- Hidden Field for Domain -->
-        <input type="hidden" name="domain" id="domain-field" value="stlgassuplly.com">
+        <input type="hidden" name="domain" id="domain-field" value="stlgassupply.com">
         
         <!-- CAPTCHA -->
-        <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+        <div class="g-recaptcha" data-sitekey="6LdBSbIqAAAAAJ0PmZzXe1WE8zMOQUcIrV_UKq24"></div>
         <button type="submit">Submit</button>
     </form>
     <p style="font-size: 12px; color: #999;">Powered by Google reCAPTCHA</p>
@@ -124,7 +124,7 @@
             event.preventDefault();
             const form = event.target;
             const formData = new FormData(form);
-            const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+            const response = await fetch('https://formspree.io/f/xjkkjbyr', {
                 method: 'POST',
                 body: formData,
                 headers: { 'Accept': 'application/json' }
